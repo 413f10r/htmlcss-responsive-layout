@@ -1,0 +1,22 @@
+/* Soluzione qui */
+
+@media screen and (min-width: 768px) {
+    #topbar {
+
+        display: block;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        color: #4e3969;
+        /* font-weight: 1200; */
+        font-size: 2rem;
+    }
+
+    .social-networks .label {
+        display: flex;
+    }
+}
