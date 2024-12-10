@@ -2,9 +2,8 @@
 
 @media screen and (min-width: 768px) {
 
-    logo-left */
-
-    /* #topbar {
+    /* logo-left */
+    #topbar {
         display: block;
     }
 
@@ -56,7 +55,7 @@
 /* ************media-query--xl-<992px************ */
 
 @media screen and (min-width: 992px) {
-    body {
-        background-color: black;
+    .recipe-name {
+        font-size: 2.2 rem;
     }
 }
