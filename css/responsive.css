@@ -1,22 +1,62 @@
 /* Soluzione qui */
 
 @media screen and (min-width: 768px) {
-    #topbar {
 
+    logo-left */
+
+    /* #topbar {
         display: block;
     }
 
+
+
+    /* title-size */
+    .recipe-name {
+        font-size: 1.8rem;
+    }
+
+    /* second-title*/
     .recipe-origin {
         display: inline;
     }
 
-    .recipe-name {
-        color: #4e3969;
-        /* font-weight: 1200; */
-        font-size: 2rem;
+
+    /* griglia info-ricetta */
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
     }
 
-    .social-networks .label {
-        display: flex;
+    .quick-notes li {
+        flex-basis: calc((100% / 3) - 10px);
+        padding: 1%;
+    }
+
+    .btn {
+        width: 20%;
+    }
+
+    /* ads */
+    .ads {
+        display: block;
+        margin: 40px auto;
+    }
+
+    /* float */
+    .presentation img {
+
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+
+/* ************media-query--xl-<992px************ */
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: black;
     }
 }

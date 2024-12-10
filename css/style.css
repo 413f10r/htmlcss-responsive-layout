@@ -92,10 +92,9 @@ main {
 }
 
 .recipe-title {
-	width: 85%;
+	width: 50%;
 }
 
-/* per far apparire titolo in () ins display:iniline/block */
 .recipe-origin {
 	display: none;
 }
