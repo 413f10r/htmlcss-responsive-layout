@@ -7,6 +7,12 @@
         display: block;
     }
 
+    main {
+
+        padding: 0% 10%;
+
+    }
+
 
 
     /* title-size */
@@ -56,6 +62,68 @@
 
 @media screen and (min-width: 992px) {
     .recipe-name {
-        font-size: 2.2 rem;
+        font-size: 2.2rem
     }
+
+
+    .recipe-card {
+        display: flex;
+        justify-content: center;
+        wi
+    }
+
+    /* griglia info-ricetta */
+    .quick-notes ul {
+        display: block;
+        flex-wrap: nowrap;
+        gap: none;
+
+    }
+
+
+    .recipe-info {
+        width: 40%;
+        height: 350px;
+    }
+
+    .recipe-video {
+        width: 60%;
+        height: 350px;
+    }
+
+    .recipe-video iframe {
+        border: 0;
+        width: 100%;
+
+        display: flex;
+    }
+
+
+    /* social */
+    .btn {
+        gap: 5px;
+        display: flex;
+    }
+
+    .social-networks .label {
+        display: flex;
+
+
+    }
+
+    footer {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    address {
+        text-align: left;
+    }
+
+
+
+
+
 }
